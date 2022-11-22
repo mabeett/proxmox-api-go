@@ -295,7 +295,7 @@ func (config ConfigQemu) UpdateConfig(vmr *VmRef, client *Client) (err error) {
 	//Array to list deleted parameters
 	deleteParams := []string{}
 
-	if config.QemuOs != 0 {
+	if config.QemuOs != "" {
 		configParams["os"] = config.QemuOs
 	}
 
