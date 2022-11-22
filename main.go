@@ -13,8 +13,9 @@ import (
 	"strconv"
 
 	"github.com/Telmate/proxmox-api-go/cli"
+
 	_ "github.com/Telmate/proxmox-api-go/cli/command/commands"
-	"github.com/Telmate/proxmox-api-go/proxmox"
+	"github.com/mabeett/proxmox-api-go/proxmox"
 )
 
 func main() {
